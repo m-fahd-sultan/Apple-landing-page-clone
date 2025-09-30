@@ -1,0 +1,178 @@
+@import url(nav.css);
+@import url(hero4.css);
+@import url(slider.css);
+/* @import url(hero5.css); */
+@import url(footer.css);
+@font-face {
+    font-family: 'iphone';
+    src: url(images/SFPRODISPLAYMEDIUM.OTF);
+}
+body {
+    font-family: 'iphone', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#hero{
+    background-image: url(images/Mothersday.png);
+    height: 680px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    line-height: 0%;
+     font-family: 'iphone', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+
+}
+#hero h1{
+    font-family: 'iphone', sans-serif;
+    color: rgb(22, 22, 22);
+    font-size: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+#hero p{
+    color: rgb(22, 22, 22);
+    font-size: 1.7rem;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 100%;
+    height: auto; 
+    line-height: 1.5;
+    margin: 0 auto;
+}
+#hero button{
+ 
+    color: white;
+    width: 80px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10px;
+   
+}
+#hero2{
+    background-image: url(images/Main_iphone.jpg);
+     background-size: cover;
+    background-position: center;
+     height: 680px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#hero2 h1{
+    font-family: 'iphone', sans-serif;
+    color: rgb(22, 22, 22);
+    font-size: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+  
+}
+#hero2 p{
+    color: rgb(22, 22, 22);
+    font-size: 1.7rem;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 100%;
+    height: auto; 
+    line-height: 1.5;
+
+}
+#hero2 button{
+ 
+    color: white;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+
+    margin-left: 10px;
+    font-weight: semi-bold;  
+}
+
+#hero2 .gradiant{
+    background: -webkit-linear-gradient(356deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    width: 400px;
+    align-self: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    text-align: center;
+}
+
+/*  */
+#hero button{
+ 
+    color: white;
+    width: 80px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10px;
+   
+}
+#hero3{
+    background-image: url(images/watch.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    background-position: 50%;
+     height: 700px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#hero3 h1{
+    font-family: 'iphone', sans-serif;
+    color: rgb(22, 22, 22);
+    font-size: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hero3 h1 i{
+    font-size: 3.4rem;
+}
+#hero3 h2{
+     font-family: 'iphone', sans-serif;
+    color: rgb(22, 22, 22);
+    font-size: 2rem;
+    font-weight: bold;
+}
+#hero3 p{
+    color: rgb(22, 22, 22);
+    font-size: 1.7rem;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 100%;
+    height: auto; 
+    line-height: 1.5;
+
+}
+#hero3 button{
+ 
+    color: white;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+
+    margin-left: 10px;
+    font-weight: semi-bold;  
+}

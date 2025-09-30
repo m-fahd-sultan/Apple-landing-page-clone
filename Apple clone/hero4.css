@@ -1,0 +1,108 @@
+
+      #hero4{
+min-height: 500px;
+width: 100%;
+margin-top: 20px;
+      }
+      
+#row{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.grid_item{
+     height: 650px;
+    min-width: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 6px solid white;
+}
+
+#gridi{
+    padding-top: 20px;
+    background-image: url(images/Gird_mac.jpg);
+    height: 650px;
+    background-position: 50% 80%;
+}
+#gridi_2{
+     padding-top: 20px;
+    background-image: url(images/grid-3.jpg);
+    background-position: 50% 80%;
+    height: 650px;
+}
+#gridi_3{
+    background-image: url(images/grid-4.jpg);
+    background-position: 50% 10%;
+}
+#gridi_4{
+    background-image: url(images/grid_new.jpg);
+    padding-top: 20px;
+    background-position: 50% 60%;
+}
+#gridi_5{
+    background-image: url(images/grid-5.jpg);
+    padding-top: 20px;; 
+}
+#gridi_5 h1{
+        font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#gridi_5 h1 i{
+    font-size: 3rem;
+    margin-right: 5px;
+
+}
+
+#gridi_6{
+    background-image: url(images/grid-6.jpg);
+    padding-top: 20px;
+    background-position: 50% 60%;
+}
+#gridi_6 h1{
+        font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#gridi_6 h1 i{
+    font-size: 3rem;
+    margin-right: 5px;
+
+}
+.gridi_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 700px;
+    width: 100%;   
+    color: white;
+    padding-bottom: 20px;
+}
+.gridi_content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#hero4 .gradiant{
+    background: -webkit-linear-gradient(356deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    font-weight: semi-bold;
+    text-align: center;
+    width: 300px;
+    margin-top: 400px;
+}
+.grid_item button{
+    border-radius: 50px;
+}

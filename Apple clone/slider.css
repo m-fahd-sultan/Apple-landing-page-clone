@@ -1,0 +1,78 @@
+#main-slide{
+        height: 700px;
+        width: 100%;
+    }
+    .sliders{
+        margin-left: 10px;
+       width: 1280px;
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide-item-1{
+        background-image: url(images/slide-1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-2{
+        background-image: url(images/slide-2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-3{
+        background-image: url(images/slide-3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-4{
+        background-image: url(images/slide-4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-5{
+        background-image: url(images/slide-5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-6{
+        background-image: url(images/slide-6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-7{
+        background-image: url(images/slide-7.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-8{
+        background-image: url(images/slide-8.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-9{
+        background-image: url(images/slide-9.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+        .slide-item-10{
+        background-image: url(images/slide-10.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (max-width: 1000px) {
+        #main-slide, .sliders {
+            width: 90%;
+            height: 400px;
+            background-size: 600px, 400px;
+            background-repeat: no-repeat;
+        }
+    }
+
+        @media screen and (max-width: 650px) {
+        #main-slide, .sliders {
+            display: none;
+        }
+    }
+        
+   
